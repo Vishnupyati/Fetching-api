@@ -1,0 +1,135 @@
+#logo{
+  position: absolute;
+  top:50px;
+  left:50px;
+  bottom:40px;
+  width:200px;
+  height:auto;
+  color:rgb(169, 138, 189);
+  font-family:'Times New Roman', Times, serif ;
+ 
+}
+
+h1{
+  font-size:40px;
+  font-weight: bolder;
+}
+
+*
+{
+  padding:0;
+  margin:0;
+}
+nav{
+  background-color: rgb(68, 68, 210);
+  text-align:right;
+  padding:50px;
+  border-radius:40px;
+}
+
+nav li{
+  display:inline-block;
+  margin: right 5%;
+  padding-top:1px;
+}
+
+nav li button{
+  color:rgb(0, 0, 0);
+  font-weight:bolder;
+  background-color:rgb(134, 60, 225);
+  padding:11px;
+  text-decoration:none;
+  font-family:monospace;
+  height:60px;
+  width:150px;
+  font-size:20px;
+  cursor:pointer;
+  border-radius:15px;
+  border:3px solid rgb(109, 105, 105);
+
+}
+nav li button:hover
+{
+  background-color:rgb(99, 95, 103);
+}
+
+#main
+{
+  margin-left:10%;
+  margin-right:10%;
+  margin-top:5%;
+  background-color:rgb(68, 68, 210);
+  border-radius:10px;
+}
+
+.info
+{
+  max-width:270px;
+  margin:15px auto;
+  margin-top:7%;
+  text-align:center;
+  font-family:bolder;
+  padding:15px;
+  border-radius:10px;
+  background: rgb(255, 255, 255);
+ 
+  border:5px solid white;
+  color:black;
+}
+
+.image
+{
+  border-radius:50px;
+  margin-bottom:25px;
+  border:3px solid grey;
+
+}
+.Body2
+{
+background-color: black;
+}
+
+.name
+{
+  font-family:serif ;
+  font-size:25px;
+  font-weight:bold;
+}
+
+.email{
+  font-family:serif;
+  font-size:18px;
+  overflow-wrap:break-word;
+
+}
+
+@media  screen and(max-width:600px) {
+  #logo{
+    font-size:35px;
+    margin-left:-9%;
+  }
+  button{
+    margin-left:50%;
+  }
+  
+}
+#load{
+  margin-top:50%;
+  margin:0 auto;
+}
+
+.loader
+{
+  border:16px solid darkgrey;
+  border-top:16px solid yellow;
+  border-radius:50%;
+  width:120px;
+  height:120px;
+  animation: spin 2s linear infinite;
+  margin-top:50%;
+}
+
+@keyframes spin {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
